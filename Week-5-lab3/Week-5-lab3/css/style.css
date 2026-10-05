@@ -1,0 +1,27 @@
+nav menu{
+  display:flex;
+  gap: 30px;
+  
+}
+
+nav a{
+  color: #ffd500;
+  font-size: 1.25rem;
+}
+
+nav menu {
+       justify-content: right;
+}
+.services {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+}
+
+.header-logo {
+  /* remove the small gap images get under them */
+  display: block;
+  height: 50px;
+  margin: 0 15px;
+}
