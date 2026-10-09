@@ -1,0 +1,45 @@
+
+.eminem-logo {
+       width: 200px;
+       height: auto;
+   }
+
+@font-face {
+       font-family: "Retro Blendy";
+       src: url("./fonts/Retro Blendy.otf") format("opentype");
+   }
+   
+   @font-face {
+       font-family: "Mainstay";
+       src: url("./fonts/Mainstay.otf") format("opentype");
+   }
+   
+   @font-face {
+       font-family: "Heavy Heap";
+       src: url("./fonts/heavy heap rg.otf") format("opentype");
+   }
+   
+   @font-face {
+       font-family: "Super Basic";
+       src: url("./fonts/Super Basic.ttf") format("truetype");
+   }
+   
+   .intro {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+
+   }
+   
+   .emphasis {
+       font-family: "Heavy Heap", sans-serif;
+       font-size: 36px;
+       color: red;
+       line-height: 1.2;
+   }
+
+   .eminem-logo {
+       width: 200px;
+       height: auto;
+   }
+   
