@@ -36,6 +36,11 @@
        font-size: 36px;
        color: red;
        line-height: 1.2;
+       margin-left: 5px;
+       text-shadow: 1px 2px 1px #777777;
+       display: inline-block;
+       transform: translateY(15px);
+
    }
 
    .eminem-logo {
@@ -43,3 +48,108 @@
        height: auto;
    }
    
+   .look {
+       font-family: "Mainstay", sans-serif;
+       font-size: 48px;
+       color: red;
+       line-height: 1.2;
+   }
+
+   .opportunity {
+       font-family: "Heavy Heap", sans-serif;
+       font-size: 36px;
+       color: red;
+       line-height: 1.2;
+       margin-left: 5px;
+       text-shadow: 1px 2px 1px #777777;
+       display: inline-block;
+       transform: translateY(15px);
+
+   }
+
+   .seize {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: blue;
+       font-weight: 100;
+       letter-spacing: 2px;
+       margin-left: 20px;
+
+   }
+
+   .one-moment {
+       font-family: "Super Basic";
+       font-size: 26px;
+       color: blue;
+       line-height: 1.2;
+       margin-left: 5px;
+       text-shadow: 1px 2px 1px #777777;
+
+
+   }
+
+   .slip {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       font-weight: 100;
+       letter-spacing: 4px;
+       margin-left: 50px; 
+   }
+
+   .capture {
+       font-family: "Heavy Heap";
+       font-size: 40px;
+       color: orange;
+       font-weight: 100;
+       letter-spacing: 1px;
+       text-shadow: 1px 2px 1px #777777
+
+   }
+
+
+   .Yo {
+     font-family: "Retro Blendy";
+     font-size: 40px;
+     color: red;
+     font-weight: 100;
+     letter-spacing: 1px;
+     text-shadow: 1px 2px 1px #777777;
+     margin-left: 100px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+   }
+
+   .sweaty-palms{
+
+       font-family: "Oswald", sans-serif;
+       font-size: 20px;
+       color: blue;
+       font-weight: 100;
+       letter-spacing: 4px;
+       text-shadow: 1px 2px 1px #777777;
+       line-height: 1.5;
+       margin-left: 10px;
+   }
+
+   .knees-weak{
+       font-family: "Mainstay";
+       font-size: 25px;
+       letter-spacing: 4px;
+       text-shadow: 1px 2px 1px #777777;
+       color: blue;
+       display: inline-block;
+       transform: translateY(20px);
+   }
+
+.arms-heavy{
+       font-family: "Retro Blendy";
+       color: green;
+       font-size: 30px;
+       letter-spacing: 4px;
+       text-shadow: 1px 2px 1px #777777;
+       display: inline-block;
+       transform: translateY(40px);
+
+}
