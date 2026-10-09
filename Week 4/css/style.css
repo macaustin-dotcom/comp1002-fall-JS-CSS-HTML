@@ -1,0 +1,129 @@
+body{margin: 0;}
+/* We will start by pulling in our self hosted custom font */
+
+@font-face {
+       font-family: yellowRabbit;
+       src: url("../fonts/Yellowrabbit.otf")
+
+}
+
+/* Now apply custom font to h1 */
+
+h1{
+       font-family: "yellowRabbit", sans-serif;
+}
+
+/* Now we will target all the h elements using the group selector */
+
+h2,h3,h4,h5,h6{
+font-family: "Montserrat", sans-serif;
+}
+
+p,a,li{
+       font-size: 1.2rem;
+       font-family: "Roboto", sans-serif;
+       text-decoration: none;
+}
+
+header{
+       height: 150px;
+       padding: 5px 5%;
+       background-color: #f4f4f4;
+
+}
+
+header > div{
+       width: auto;
+       height: 140px;
+       padding-top: 5px;
+       float: left;
+
+}
+
+header > div > a > img{
+       width: auto;
+       height: 100%;
+}
+
+header > nav > menu{
+       float: right;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       height: 140px;
+       line-height: 140px;
+}
+
+header > nav > menu > li{
+       float: left;
+       padding: 0 5px;
+
+}
+
+header > nav > menu > li > a{
+       color: #0e0e0e;
+
+}
+.lesson-hero-section{
+       height: 100vh;
+       background-color: #072d67;
+       text-align: center;
+}
+
+.lesson-hero-section h1{
+       font-size: 7rem;
+       color: #f9a825;
+       letter-spacing: 1.75px;
+       text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
+       margin: 0;
+       position: relative;
+       top: 40%;
+}
+
+.lesson-contrast{
+       background-image: url("../img/letter-soup.jpg");
+       background-size: cover;
+}
+
+.lesson-contrast div {
+       padding: 15% 5%;
+       color: #f8f8f8;
+       background-color: rgb(0, 0, 0, .5);
+       text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
+}
+
+.lesson-contrast div h2{
+       font-size: 3.5rem;
+       margin-bottom: 15px;
+
+}
+
+.lesson-contrast div p{
+       margin: 0;
+       line-height: 1.2;
+
+}
+
+.lesson-stand-out {
+       padding: 10% 5%;
+}
+
+.lesson-stand-out h3{
+       font-size: 2.5rem;
+       margin-bottom: 15px; 
+}
+
+.lesson-stand-out h3 mark{
+font-size: 1.5rem;
+font-weight: 900;
+color: #072d67;
+background-color: rgba(0, 0, 0, 0);
+
+}
+
+.lesson-stand-out h3 mark + mark{
+       font-size: 6rem;
+       font-weight: 900;
+       color: #f9a825;
+       letter-spacing: 5.75px;
+}
