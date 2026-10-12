@@ -151,5 +151,951 @@
        text-shadow: 1px 2px 1px #777777;
        display: inline-block;
        transform: translateY(40px);
+       margin-bottom: 60px;
 
+}
+
+.vomit {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 25px;
+       letter-spacing: 4px;
+       margin-left: 20px;
+       margin-top: 20px;
+
+}
+
+.moms-spaghetti {
+       font-family: "Heavy Heap";
+       color: red;
+       font-size: 40px;
+       letter-spacing: 6px;
+       margin-left: 20px;
+       margin-top: 20px;
+}
+
+.nervous {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       letter-spacing: 3px;
+       margin-left: 60px;
+       
+}
+
+.calm-and-ready {
+       font-family: "Super Basic";
+       color: blue;
+       font-size: 24px;
+       letter-spacing: 5px;
+
+}
+
+.drop-bombs {
+       font-family: "Oswald", sans-serif;
+       line-height: 2;
+       font-size: 24px;
+}
+
+.keeps-forgetting {
+       font-family: "Mainstay";
+       line-height: 2;
+       letter-spacing: 4px;
+       text-shadow: 1px 2px 1px #777777;
+       color: blue;
+       
+}
+
+.wrote-down {
+       font-family: "Oswald", sans-serif;
+       line-height: 2;
+       letter-spacing: 4px;
+       margin-left: 60px;
+       color: black;
+       font-size: 24px;
+}
+
+.whole-crowd {
+       font-family: "Heavy Heap";
+       color: green;
+       font-weight: bold;
+       font-size: 24px;
+
+}
+
+.open-mouth {
+       font-family: "Oswald", sans-serif;
+       margin-left: 150px;
+       color: black;
+       font-size: 24px;
+       letter-spacing: 6px;
+       line-height: 4;
+
+}
+
+.wont-come-out {
+       font-family: "Retro Blendy";
+       color: blue;
+       font-size: 24px;
+       letter-spacing: 10px;
+       text-shadow: 1px 3px 1px #7777;
+}
+
+.choking {
+       font-family: "Super Basic";
+       color: red;
+       font-size: 24px;
+       letter-spacing: 2px;
+       text-shadow: 1px 3px 1px #7777;
+}
+
+.jokin-now {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       letter-spacing: 2px;
+       text-shadow: 1px 3px 1px #7777;
+
+}
+
+.clocks-run-out {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       letter-spacing: 2px;
+
+}
+
+.times-up {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       font-weight: bold;
+       letter-spacing: 6px;
+}
+
+.over {
+       font-family: "Retro Blendy";
+       font-size: 24px;
+       color: orange;
+       text-shadow: 1px 3px 1px #7777;
+}
+
+.blaow {
+       font-family: "Mainstay";
+       font-size: 36px;
+       color: red;
+       text-shadow: 2px 4px 2px #7777;
+}
+
+.snap-back {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: blue;
+       letter-spacing: 2px;
+       margin-left: 150px;
+}
+
+.ope {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       font-style: italic;
+       font-weight: bold;
+       text-shadow: 1px 2px 1px #7777;
+       color: black;
+}
+
+.there-goes-gravity {
+       font-family: "Mainstay";
+       font-size: 24px;
+       font-weight: bold;
+       text-shadow: 2px 4px 2px #7777;
+       color: red;
+
+}
+
+.there-goes-rabbit {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       text-shadow: 1px 2px 1px #7777;
+}
+
+.ope2 {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       font-style: italic;
+       font-weight: bold;
+       text-shadow: 1px 2px 1px #7777;
+       color: black;
+}
+
+.wont-give-up {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: blue;
+       letter-spacing: 3px;
+
+}
+
+.he-wont-have-it {
+       font-family: "Mainstay";
+       font-size: 24px;
+       color: black;
+       letter-spacing: 8px;
+}
+
+.back-to-these-ropes {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       letter-spacing: 2px;
+       line-height: 3;
+       text-shadow: 1px 2px 1px #7777;
+}
+
+.hes-dope {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       letter-spacing: 4px;
+       text-shadow: 1px 2px 1px #7777;
+       
+}
+
+.stagnant {
+       font-family: "Super Basic";
+       font-size: 24px;
+       color: blue;
+       letter-spacing: 6px;
+       text-shadow: 1px 2px 1px #7777;
+       
+}
+
+.he-knows-when-he-goes-back {
+       font-family: "Retro Blendy";
+       font-size: 36px;
+       color: purple;
+       letter-spacing: 2px;
+       text-shadow: 1px 2px 1px #7777;
+       margin-left: 60px;
+}
+
+.he-knows-when {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       line-height: 1;
+}
+
+.back-to-the-lab {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       line-height: 3;
+       margin-left: 250px;
+
+}
+
+.this-old-rhapsody {
+       font-family: "Mainstay";
+       font-size: 36px;
+       color: orange;
+       font-weight: bold;
+       text-shadow: 1px 2px 1px #7777;
+}
+
+.better-go-capture {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       margin-left: 250px;
+}
+
+.hope-it-dont-pass-him {
+       font-family: "Retro Blendy";
+       font-size: 24px;
+       text-shadow: 1px 2px 1px #7777;
+       color: purple;
+
+}
+
+.you-better-lose-yourself {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       line-height: 4;
+       color: black;
+}
+
+.lose-yourself {
+       font-family: "Retro Blendy";
+       font-size: 36px;
+       margin-left: 20px;
+       margin-right: 20px;
+       color: red;
+       line-height: 4;
+}
+
+.the-moment {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       margin-left: 150px;
+       color: black;
+
+}
+
+.you-own-it {
+       font-family: "Heavy Heap";
+       font-size: 36px;
+       color: red;
+       text-shadow: 1px 2px 1px #7777;
+
+}
+
+.Go1 {
+       font-family: "Heavy Heap";
+       font-size: 48px;
+       color: red;
+}
+
+.Go2 {
+       font-family: "Heavy Heap";
+       font-size: 36px;
+       color: red;
+       margin-left: 20px;
+}
+
+.you-only-get-one-shot {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+       margin-left: 150px;
+}
+
+.chance-to-blow {
+       font-family: "Heavy Heap";
+       font-size: 36px;
+       color: orange;
+}
+
+.this-opportunity {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+}
+
+.yo3 {
+       font-family: "Mainstay";
+       font-size: 36px;
+       color: red;
+       text-shadow: 1px 3px 1px #7777;
+       font-weight: italic;
+}
+
+.you-better {
+       font-family: "Retro Blendy";
+       font-size: 36px;
+       margin-left: 150px;
+       text-shadow: 1px 3px 1px #7777;
+       font-weight: bold;
+       color: purple;
+}
+
+.soul-is-escaping {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: black;
+}
+
+.hole-that-is-gaping {
+       font-family: "Mainstay";
+       color: aqua;
+       line-height: 2;
+       font-size: 30px;
+}
+
+.this-world-is-mine {
+       font-family: "Oswald", sans-serif;
+       color: red;
+       font-size: 36px;
+       margin-left: 100px;
+}
+
+.make-me-king {
+       font-family: "Super Basic";
+       color: purple;
+       font-size: 48px;
+
+}
+
+.as-we-move-toward {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       line-height: 4;
+}
+
+.new-world-order {
+       font-family: "Retro Blendy";
+       color: black;
+       background-color: yellow;
+       font-size: 36px;
+       line-height: 4;
+}
+
+.a-normal-life-is-boring {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       line-height: 2;
+       font-style: italic;
+
+}
+
+.close-to-post-mortem {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       
+       
+}
+
+.it-only-grows-harder {
+       font-family: "Retro Blendy";
+       color: blue;
+       font-size: 28px;
+       background-color: yellow;
+       text-decoration: underline;
+
+}
+
+.homie-grows-hotter {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       line-height: 4;
+}
+
+.hoes-is-all-on-him {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+
+}
+
+.hes-known-as-the-globetrotter {
+       font-family: "Mainstay";
+       color: blue;
+       font-size: 36px;
+
+}
+
+.lonely-roads {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+
+}
+
+.god-only-knows {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+}
+
+.hes-no-father {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 30px;
+       font-weight: bold;
+       text-decoration: underline;
+}
+
+.he-goes-home {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+
+}
+
+.own-daughter {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 30px;
+       font-weight: bold;
+       text-decoration: underline;
+}
+
+.but-hold-your-nose {
+       font-family: "Oswald", san-serif;
+       color: black;
+       font-size: 24px;
+}
+
+.cold-water {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 30px;
+       font-weight: bold;
+       text-decoration: underline;
+}
+
+.these-hoes-dont-want-him {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+}
+
+.cold-product {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 30px;
+       font-weight: bold;
+       text-decoration: underline;
+}
+
+.they-moved-on {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+}
+
+.who-flows {
+       font-family: "Heavy Heap";
+       color: purple;
+       font-size: 30px;
+
+}
+
+.he-nose-dove {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.sold-nada {
+       font-family: "Heavy Heap";
+       color: green;
+       font-size: 30px;
+       text-decoration: underline;
+
+}
+
+.is-told {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+}
+
+.it-unfolds {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-style: italic;
+       font-size: 24px;
+       text-shadow: 1px 3px 1px #7777;
+}
+
+.partner {
+       font-family: "Retro Blendy";
+       color: red;
+       font-weight: bold;
+       font-size: 36px;
+       text-shadow: 1px 2px 1px #7777;
+       text-decoration: underline;
+       
+
+}
+
+.but-the-beat-goes-on {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 150px;
+}
+
+.da-da-dom {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 36px;
+       margin-left: 20px;
+       margin-right: 20px;
+       font-weight: bold;
+       line-height: 4;
+}
+
+.da-dom {
+       font-family: "Retro Blendy";
+       color: green;
+       font-size: 36px;
+       margin-left: 20px;
+       margin-right: 20px;
+       font-weight: bold;
+       line-height: 4;
+}
+
+.dah-dah-dah-dah {
+       font-family: "Heavy Heap";
+       color: red;
+       font-size: 48px;
+       margin-left: 20px;
+       margin-right: 20px;
+       font-weight: bold;
+       line-height: 4;
+}
+
+.no-more-games {
+       font-style: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       
+}
+
+.what-you-call-rage {
+       font-family: "Retro Blendy";
+       color: red;
+       text-decoration: underline;
+       font-size: 36px;
+       font-weight: bold;
+
+}
+
+.tear-this-motherfuckin-roof-off {
+       font-family: "Oswald", sans-serif;
+       color: red;
+       font-size: 24px;
+       font-weight: bold;
+
+}
+
+.two-dogs-caged {
+       font-family: "Mainstay";
+       color: purple;
+       text-decoration: underline;
+       font-size: 36px;
+       font-weight: bold;
+
+}
+
+.playing-in-the-beginning {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+}
+
+.the-mood-all-changed {
+       font-family: "Mainstay";
+       color: purple;
+       font-weight: bold;
+       font-size: 24px;
+}
+
+.chewed-up-and-spit-out {
+       font-family: "Oswald";
+       color: black;
+       font-size: 24px;
+       line-height: 4;
+}
+
+.booed-off-stage {
+       font-family: "Heavy Heap";
+       color: orange;
+       font-size: 36px;
+       font-weight: bold;
+}
+
+.but-I-kept-rhymin {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       margin-left: 250px;
+       font-size: 24px
+}
+
+.stepped-right-into-the-next-cypher {
+       font-family: "Super Basic";
+       color: red;
+       font-size: 30px;
+       text-shadow: 3px 4px 3px #7777;
+}
+
+.best-believe-somebodys-payin {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 270px; 
+}
+
+.all-the-pain-inside {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 270px;
+
+}
+
+.the {
+       font-family: "Super Basic";
+       color: red;
+       font-size: 27px;
+       text-decoration: underline;
+}
+
+
+.fact-that-I-cant-get-by {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       letter-spacing: 4px;
+
+}
+
+.cant-provide-the-right-type {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       letter-spacing: 4px;
+}
+
+.cause-man {
+       font-family: "Retro Blendy";
+       color: blue;
+       font-size: 24px;
+       font-weight: bold;
+       font-style: italic;
+}
+
+.goddamn-food-stamps {
+       font-family: "Retro Blendy";
+       color: red;
+       text-decoration: underline;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.dont-buy-diapers {
+       font-family: "Retro Blendy";
+       color: black;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.and-theres-no-movie {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 150px;
+       line-height: 4;
+}
+
+.theres-no-mekhi-phifer {
+       font-family: "Super Basic";
+       color: blue;
+       font-size: 24px;
+       line-height: 4;
+      
+}
+
+.and-these-times-are-so-hard {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.and-its-gettin-even-harder {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 36px;
+       text-decoration: underline;
+       text-shadow: 1px 2px 1px #777777;
+}
+
+.tryna-feed-and-water-my-seed {
+       font-family: "Oswald", sans-serif;
+       color: orange;
+       font-size: 24px;
+       line-height: 4;
+       margin-left: 150px;
+       font-weight: bold;
+}
+
+.plus-teeter-totter {
+       font-family: "Heavy Heap";
+       color: red;
+       text-decoration: underline;
+       font-size: 36px;
+}
+
+.caught-up-between-bein-a-father {
+       font-family: "Oswald", sans-serif;
+       color: blue;
+       font-size: 24px;
+       margin-left: 200px;
+
+}
+
+.and-a-prima-donna {
+       font-family: "Mainstay";
+       color: orange;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.baby-mama-drama {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.screamin-on-her {
+       font-family: "Retro Blendy";
+       color: red;
+       font-size: 24px;
+       font-weight: bold;
+       text-decoration: underline;
+}
+
+.too-much-for-me-to-wanna {
+       font-family: "Retro Blendy";
+       color: orange;
+       font-size: 24px;
+       font-weight: bold;
+
+}
+
+.stay-in-one-spot {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       line-height: 4;
+}
+
+.monotonys-gotten-me {
+       font-family: "Retro Blendy";
+       color: blue;
+       font-size: 36px;
+       text-shadow: 1px 2px 1px #777777;
+}
+
+.to-the-point-im-like-a-snail {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 150px;
+
+}
+
+.Ive-got {
+       font-family: "Mainstay";
+       color: red;
+       font-size: 24px;
+       font-weight: bold;
+       text-shadow: 1px 2px 1px #777777;
+}
+
+.to-formulate {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 180px;
+}
+
+.a-plot {
+       font-family: "Mainstay";
+       color: red;
+       font-size: 24px;
+       text-shadow: 1px 2px 1px #777777;
+}
+
+.jail-or-shot {
+       font-family: "Mainstay";
+       color: red;
+       font-size: 24px;
+       text-shadow: 1px 2px 1px #777777;
+}
+
+.success-is-my-only-motherfuckin-option {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 150px;
+}
+
+.failures-not {
+       font-family: "Mainstay";
+       color: red;
+       font-size: 24px;
+       text-shadow: 1px 2px 1px #777777;  
+}
+
+
+.mom-i-love-you {
+       font-family: "Oswald", sans-serif;
+       font-size: 24px;
+       color: blue;
+        
+
+}
+
+.trailers-got {
+       font-family: "Retro Blendy";
+       color: aqua;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+.to-go {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 150px;
+}
+
+.I-cannot-grow-old {
+       font-family: "Super Basic";
+       color: blue;
+       font-size: 24px;
+       line-height: 4;
+
+}
+
+.so-here-i-go {
+       font-family: "Oswald", sans-serif;
+       color: black;
+       font-size: 24px;
+       margin-left: 100px;
+}
+
+.its-my-shot {
+       font-family: "Heavy Heap";
+       color: orange;
+       font-size: 24px;
+       font-weight: bold;
+
+}
+
+.fail-me-not {
+       font-family: "Heavy Heap";
+       font-size: 24px;
+       line-height: 4;
+       font-weight: bold;
+       text-decoration: underline;
+       color: red;
+
+}
+
+.this-may-be-the-only-opportunity {
+       font-family: "Retro Blendy";
+       font-size: 24px;
+       font-weight: bold;
+       color: blue;
+       margin-left: 80px;
+}
+
+.that-I-got {
+       font-family: "Mainstay";
+       font-size: 36px;
+       font-weight: bold;
+       color: red;
+       text-decoration: underline;
 }
