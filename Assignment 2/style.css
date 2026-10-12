@@ -43,10 +43,7 @@
 
    }
 
-   .eminem-logo {
-       width: 200px;
-       height: auto;
-   }
+
    
    .look {
        font-family: "Mainstay", sans-serif;
@@ -103,7 +100,7 @@
        color: orange;
        font-weight: 100;
        letter-spacing: 1px;
-       text-shadow: 1px 2px 1px #777777
+       text-shadow: 1px 2px 1px #777777;
 
    }
 
@@ -488,7 +485,7 @@
        font-size: 36px;
        color: red;
        text-shadow: 1px 3px 1px #7777;
-       font-weight: italic;
+       font-style: italic;
 }
 
 .you-better {
@@ -508,7 +505,7 @@
 
 .hole-that-is-gaping {
        font-family: "Mainstay";
-       color: aqua;
+       color: black;
        line-height: 2;
        font-size: 30px;
 }
@@ -626,7 +623,7 @@
 }
 
 .but-hold-your-nose {
-       font-family: "Oswald", san-serif;
+       font-family: "Oswald", sans-serif;
        color: black;
        font-size: 24px;
 }
@@ -744,7 +741,7 @@
 }
 
 .no-more-games {
-       font-style: "Oswald", sans-serif;
+       font-family: "Oswald", sans-serif;
        color: black;
        font-size: 24px;
        
@@ -807,7 +804,7 @@
        font-family: "Oswald", sans-serif;
        color: black;
        margin-left: 250px;
-       font-size: 24px
+       font-size: 24px;
 }
 
 .stepped-right-into-the-next-cypher {
@@ -892,6 +889,13 @@
        font-size: 24px;
        line-height: 4;
       
+}
+
+.this-is-my-life {
+       font-family: "Oswald", sans-serif;
+       text-decoration: underline;
+       color: black;
+       font-size: 24px;
 }
 
 .and-these-times-are-so-hard {
@@ -1039,7 +1043,7 @@
 
 .trailers-got {
        font-family: "Retro Blendy";
-       color: aqua;
+       color: black;
        font-size: 24px;
        font-weight: bold;
 }
@@ -1099,3 +1103,13 @@
        color: red;
        text-decoration: underline;
 }
+
+footer {
+       margin-top: 80px;
+       padding: 30px;
+       text-align: center;
+       font-family: "Oswald", sans-serif;
+       font-size: 14px;
+       color: #777;
+       border-top: 1px solid #ccc;
+   }
