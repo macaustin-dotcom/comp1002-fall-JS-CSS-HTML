@@ -1,0 +1,98 @@
+
+*{
+       margin: 0;
+}
+body {
+       margin: 0;
+       font-family: Arial, Helvetica, sans-serif;
+       line-height: 1.5;
+       color: #222222;
+}
+
+header{
+       /* rem = relative to the root font-size normally 16px */
+       padding-top: 1rem;
+       padding-right: 2rem;
+       padding-bottom: 1rem;
+       padding-left: 2rem;
+       /* shorthand padding = padding: 1rem (top/bottom) 2rem(left/right); 
+       padding: 1.5rem(top) 2.3rem(right) 1.78rem(bottom) 8rem(left);
+       padding: 1rem(all sides);
+       */
+       background-color: #1e2a38;
+       color: #f4f4f4;
+
+}
+header > img {
+       width: auto;
+       height: 150px;
+
+
+}
+header > nav > menu{
+       list-style: none;
+       margin: 0;
+       padding: 0;
+}
+header > nav > menu > li > a{
+       color: #f4f4f4;
+       text-decoration: none;
+       font-weight: 700;
+
+}
+header > nav > menu >li > a:hover{
+       text-decoration: underline;
+       font-weight: 900;
+}
+/*  Hero/Masthead */
+main > section{
+       min-height: 50vh;
+       background-color: #f4f4f4;
+}
+
+main > section > div{
+       padding: 2rem;
+       margin: 1rem;
+       background-color: #f2f2f2;
+       text-align: center;
+       border: 4px solid #222222;
+}
+
+main> section > div > h1{
+       font-size: 3.5rem;
+       font-weight: 700;
+       margin: 0;
+}
+main > section + section{
+       padding: 3rem 5%;
+}
+main > section + section > div > figure{
+       width: 100%;
+       height: auto;
+       margin: 0;
+}
+main > section + section > div > figure > img{
+       width: 100%;
+       height: auto;
+       display: block;
+}
+main > section + section > div > figure > figcaption{
+       font-size: .875rem; /* This is about 16px*/
+       font-style: italic;
+       color: #555555;
+       margin-top: .5rem;
+       font-weight: 700;
+}
+
+main > section + section + section{
+       padding: 3rem 5%;     
+}
+main > section + section + section > div{
+       margin-bottom: 2rem;
+}
+main > section + section + section > div > iframe,
+main > section + section + section > div > video{
+ max-width: 100%;
+ width: 100%;
+ min-height: 600px;
+}

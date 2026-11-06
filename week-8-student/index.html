@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- the meta viewport tag: without it phones pretend to be about 980px wide and shrink the whole page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Design With CSS</title>
+    <meta name="description" content="This week we will explore how to make our website scale to different viewports/devices.">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add our custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- add our CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Before we get started, it would be important to note that we will be using both flex and grid to create our layout for this web page. We will also be creating a bit more of a complicated design that way we can't cheat the responsive aspect of our page. -->
+    <!-- This page is built MOBILE FIRST: the CSS is written for phones and then min-width media queries add to it as the screen gets wider. -->
+    <!-- For our main layout we will use grid. Our body element will become a grid container making all the top level container elements the grid items -->
+    <header>
+      <!-- our header will be a flexbox, and we will also be assigning the grid area name "header" to this element. -->
+      <div>
+        <a href="index.html"><img src="./img/sample-logo.png" alt="logo"></a>
+      </div>
+      <nav>
+        <menu>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </menu>
+      </nav>
+    </header>
+    <!-- before we add our main, we will add a section that will act as our "masthead" for the page. Grid area name will be "hero". -->
+    <section class="masthead">
+      <div>
+        <h1>Responsive Design With CSS</h1>
+      </div>
+    </section>
+    <!-- our main element will take 75% of the width of the body element on our larger viewports. We will have to address this as we scale down to our smaller viewports. Grid area name will be "main". -->
+    <main>
+      <!-- 1st row will be 1 column. -->
+      <!-- I will be adding a class "example", the reason for this is to show how you can optimize your CSS by creating global classes that can be used to apply CSS to multiple elements at the same time. -->
+      <section class="example example-1">
+        <h2>Introduction Heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac odio tempor orci dapibus. Consectetur adipiscing elit ut aliquam purus sit. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Senectus et netus et malesuada fames ac turpis. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Odio aenean sed adipiscing diam. Non quam lacus suspendisse faucibus interdum posuere lorem. Est velit egestas dui id ornare arcu odio ut sem. Tristique senectus et netus et malesuada fames. Ac placerat vestibulum lectus mauris.</p>
+        <p>Est velit egestas dui id ornare arcu odio ut sem. Tristique senectus et netus et malesuada fames. Ac placerat vestibulum lectus mauris.</p>
+      </section>
+      <!-- 2nd row will be 3 columns. -->
+      <section class="example example-2">
+        <!-- I will be adding another global class to the anchor element, again to optimize our CSS. -->
+        <div>
+          <h3>1</h3>
+          <a href="#" class="btn-1">Link</a>
+        </div>
+        <div>
+          <h3>2</h3>
+          <a href="#" class="btn-2">Link</a>
+        </div>
+        <div>
+          <h3>3</h3>
+          <a href="#" class="btn-1">Link</a>
+        </div>
+      </section>
+      <!-- 3rd row will be 4 columns. 2 text divs and 2 image divs. -->
+      <section class="example example-3">
+        <div>
+          <h3>4</h3>
+          <a href="#" class="btn-1">Link</a>
+        </div>
+        <div>
+          <img src="./img/sample-2.jpg" alt="image 2">
+        </div>
+        <div>
+          <h3>5</h3>
+          <a href="#" class="btn-1">Link</a>
+        </div>
+        <div>
+          <img src="./img/sample-2.jpg" alt="image 2">
+        </div>
+      </section>
+      <!-- the next two sections will be 2 columns but and they will both contain an image and text. The only difference is that they will be opposite. We are going to do this because it will offer us an issue when it comes to smaller viewports.  -->
+      <section class="example example-4">
+        <div>
+          <h3>Section Title</h3>
+          <p>Senectus et netus et malesuada fames ac turpis. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Odio aenean sed adipiscing diam. Non quam lacus suspendisse faucibus interdum posuere lorem.</p>
+        </div>
+        <div>
+          <img src="./img/sample-3.jpg" alt="image 3">
+        </div>
+      </section>
+      <section class="example example-5">
+        <div>
+          <img src="./img/sample-4.jpg" alt="image 4">
+        </div>
+        <div>
+          <h3>Section Title</h3>
+          <p>Senectus et netus et malesuada fames ac turpis. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Odio aenean sed adipiscing diam. Non quam lacus suspendisse faucibus interdum posuere lorem.</p>
+        </div>
+      </section>
+    </main>
+    <!-- our aside element will take the remaining 25% of the width of the body element. We will also need to address this as we get to the smaller viewports. Grid area name will be "sidebar". -->
+    <aside>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+      <article>
+        <img src="./img/sample-1.jpg" alt="blog image">
+        <h4>Blog Title</h4>
+        <a href="#" class="btn-2">Link</a>
+      </article>
+    </aside>
+    <!-- we haven't done much with the footer up until now. This footer will look more like what a footer would look like if this page was being made for a client. Grid area name will be "footer". -->
+    <footer>
+      <!-- logo -->
+      <div>
+        <a href="#"><img src="./img/sample-logo.png" alt="footer logo"></a>
+      </div>
+      <!-- small about text -->
+      <div>
+        <h4>Footer Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac odio tempor orci dapibus. Consectetur adipiscing elit ut aliquam purus sit. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.</p>
+      </div>
+      <!-- quick contact form -->
+      <div>
+        <form method="post" action="somefile.php">
+          <p><input type="text" placeholder="* First & Last Name" required></p>
+          <p><input type="email" placeholder="* Your Email"></p>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
