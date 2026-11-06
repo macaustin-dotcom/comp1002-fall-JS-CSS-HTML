@@ -1,4 +1,5 @@
 
+
 body {
        margin: 0;
        padding: 0;
@@ -13,7 +14,6 @@ body {
        aspect-ratio: 1023 / 1495;
        margin: 0 auto;
        overflow: hidden;
-       container-type: inline-size;
    }
    
    /* Poster background */
@@ -31,20 +31,20 @@ body {
        src: url("../font/SCREAM__.TTF") format("truetype");
    }
    
-   /* First tagline */
-   .tagline1 {
+  /* First tagline */
+.tagline1 {
        position: absolute;
-       top: 3%;
+       top: 3.2%;
        left: 5%;
        width: 90%;
    
-       font-family: Georgia, serif;
-       font-size: 2.9cqw;
-       font-weight: normal;
+       font-family: "Cormorant Garamond", serif;
+       font-size: 32px;
+       font-weight: 500;
        color: white;
        text-align: center;
+       line-height: 1;
        margin: 0;
-       z-index: 2;
    }
    
    /* Second tagline */
@@ -54,13 +54,13 @@ body {
        left: 5%;
        width: 90%;
    
-       font-family: Georgia, serif;
-       font-size: 2.9cqw;
-       font-weight: normal;
+       font-family: "Cormorant Garamond", serif;
+       font-size: 32px;
+       font-weight: 500;
        color: white;
        text-align: center;
+       line-height: 1;
        margin: 0;
-       z-index: 2;
    }
    
    /* Scream movie title */
@@ -75,12 +75,11 @@ body {
        align-items: center;
    
        font-family: "Scream", sans-serif;
-       font-size: 7.5cqw;
+       font-size: 77px;
        font-weight: normal;
        color: white;
        line-height: 1;
        margin: 0;
-       z-index: 2;
    }
    
    /* Cast names */
@@ -95,16 +94,15 @@ body {
        align-items: center;
    
        font-family: "Cormorant SC", serif;
-       font-size: 1.85cqw;
+       font-size: 19px;
        font-weight: 600;
        line-height: 0.95;
        color: white;
        text-align: center;
-       z-index: 2;
    }
    
    .cast .and {
-       font-size: 1.4cqw;
+       font-size: 14px;
        font-weight: 400;
    }
    
@@ -119,16 +117,15 @@ body {
        flex-wrap: wrap;
        justify-content: center;
        align-items: center;
-       column-gap: 0.7cqw;
-       row-gap: 0.15cqw;
+       column-gap: 7px;
+       row-gap: 2px;
    
        font-family: "Barlow Condensed", sans-serif;
-       font-size: 1.4cqw;
+       font-size: 14px;
        font-weight: 400;
        line-height: 1.1;
        text-align: center;
        color: #b5b5b5;
-       z-index: 2;
    }
    
    /* Individual credits */
@@ -138,11 +135,11 @@ body {
    
    /* Music and website information */
    .billing18 {
-       margin-top: 1cqw !important;
+       margin-top: 10px;
    }
    
    .billing19 {
-       margin-top: 1cqw !important;
+       margin-top: 10px;
    }
    
    /* Bottom promotional text */
@@ -154,11 +151,10 @@ body {
    
        color: #cccccc;
        font-family: "Cormorant SC", serif;
-       font-size: 1.5cqw;
-       letter-spacing: 0.4cqw;
+       font-size: 15px;
+       letter-spacing: 4px;
        text-align: center;
        white-space: nowrap;
-       z-index: 2;
    }
    
    .movie-promotion p {
