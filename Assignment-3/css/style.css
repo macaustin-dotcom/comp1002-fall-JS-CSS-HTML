@@ -1,5 +1,6 @@
 
 
+
 body {
        margin: 0;
        padding: 0;
@@ -9,7 +10,7 @@ body {
    /* Poster container */
    .poster {
        position: relative;
-       width: 100%;
+       width: min(100%, 67vh);
        max-width: 1023px;
        aspect-ratio: 1023 / 1495;
        margin: 0 auto;
@@ -31,15 +32,15 @@ body {
        src: url("../font/SCREAM__.TTF") format("truetype");
    }
    
-  /* First tagline */
-.tagline1 {
+   /* First tagline */
+   .tagline1 {
        position: absolute;
        top: 3.2%;
        left: 5%;
        width: 90%;
    
        font-family: "Cormorant Garamond", serif;
-       font-size: 32px;
+       font-size: 2.1vh;
        font-weight: 500;
        color: white;
        text-align: center;
@@ -55,7 +56,7 @@ body {
        width: 90%;
    
        font-family: "Cormorant Garamond", serif;
-       font-size: 32px;
+       font-size: 2.1vh;
        font-weight: 500;
        color: white;
        text-align: center;
@@ -75,7 +76,7 @@ body {
        align-items: center;
    
        font-family: "Scream", sans-serif;
-       font-size: 77px;
+       font-size: 5.1vh;
        font-weight: normal;
        color: white;
        line-height: 1;
@@ -94,69 +95,182 @@ body {
        align-items: center;
    
        font-family: "Cormorant SC", serif;
-       font-size: 19px;
+       font-size: 1.3vh;
        font-weight: 600;
        line-height: 0.95;
        color: white;
        text-align: center;
    }
    
+   /* Small 'and' between cast names */
    .cast .and {
-       font-size: 14px;
+       font-size: 0.95vh;
        font-weight: 400;
    }
    
-   /* Production credits */
+   /* Production credits container */
    .credits {
        position: absolute;
-       top: 86.5%;
-       left: 7%;
-       width: 86%;
-   
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-       column-gap: 7px;
-       row-gap: 2px;
+       top: 85.5%;
+       left: 6%;
+       width: 88%;
    
        font-family: "Barlow Condensed", sans-serif;
-       font-size: 14px;
        font-weight: 400;
-       line-height: 1.1;
+       color: #999999;
        text-align: center;
-       color: #b5b5b5;
    }
    
-   /* Individual credits */
-   .credits p {
+   /* First and second billing rows */
+   .credit-row {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 2px;
+       margin-bottom: 3px;
+   }
+   
+   /* Individual production credits */
+   .credit-row p {
        margin: 0;
+       padding: 0;
+   
+       font-size: 0.8vh;
+       line-height: 1;
+       white-space: nowrap;
    }
    
-   /* Music and website information */
-   .billing18 {
-       margin-top: 10px;
+   /* Smaller production descriptions */
+   .credit-row span {
+       font-size: 0.55vh;
+       font-weight: 400;
    }
    
-   .billing19 {
-       margin-top: 10px;
+   /* Dimension Films billing */
+   .credits .billing1 {
+       display: inline-flex;
+       align-items: center;
+       gap: 2px;
+   
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.2vh;
+       font-weight: 400;
+       color: #999999;
+       line-height: 1;
+   }
+   
+   /* Presents A */
+   .credits .billing1 .presents {
+       font-size: 0.55vh;
+       font-weight: 400;
+       letter-spacing: 0;
+   }
+   
+   /* Woods Entertainment billing */
+   .credits .billing2 {
+       display: inline-flex;
+       align-items: center;
+       gap: 2px;
+   
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.2vh;
+       font-weight: 400;
+       color: #999999;
+       line-height: 1;
+   }
+   
+   /* Production A */
+   .credits .billing2 .production-a {
+       font-size: 0.55vh;
+       font-weight: 400;
+       letter-spacing: 0;
+   }
+   
+   /* Third billing row with logos */
+   .logo-row {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 4px;
+       margin-top: 7px;
+   }
+   
+   /* Production names beside logos */
+   .logo-row p {
+       margin: 0;
+       font-size: 0.8vh;
+       line-height: 1;
+       white-space: nowrap;
+   }
+   
+   /* Smaller producer descriptions */
+   .logo-row span {
+       font-size: 0.55vh;
+   }
+   
+   /* Dolby logo */
+   .logo-dolby {
+       width: 7%;
+       height: auto;
+   }
+   
+   /* Woods Entertainment logo */
+   .logo-woods {
+       width: 10%;
+       height: auto;
+   }
+   
+   /* Dimension Films logo */
+   .logo-dimension {
+       width: 14%;
+       height: auto;
+   }
+   
+   /* Soundtrack and website row */
+   .soundtrack-row {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       margin-top: 8px;
+   }
+   
+   /* Soundtrack row text */
+   .soundtrack-row p {
+       margin: 0;
+       font-size: 0.85vh;
+       line-height: 1;
+       white-space: nowrap;
+   }
+   
+   /* Soundtrack Available On */
+   .soundtrack-row p:first-child {
+       font-size: 1.3vh;
+   }
+   
+   /* TVT Soundtrax logo */
+   .logo-soundtrack {
+       width: 8%;
+       height: auto;
    }
    
    /* Bottom promotional text */
    .movie-promotion {
        position: absolute;
-       top: 95.5%;
+       top: 94%;
        left: 5%;
        width: 90%;
    
        color: #cccccc;
        font-family: "Cormorant SC", serif;
-       font-size: 15px;
-       letter-spacing: 4px;
+       font-size: 1vh;
+       font-weight: 400;
+       letter-spacing: 0.3vh;
        text-align: center;
        white-space: nowrap;
    }
    
+   /* Remove paragraph margins */
    .movie-promotion p {
        margin: 0;
    }
