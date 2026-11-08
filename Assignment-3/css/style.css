@@ -267,7 +267,7 @@ body {
        font-weight: 400;
        letter-spacing: 0.3vh;
        text-align: center;
-       white-space: nowrap;
+        
    }
    
    /* Remove paragraph margins */
@@ -335,5 +335,262 @@ header {
        font-family: "Barlow Condensed", sans-serif;
        font-size: 14px;
        margin: 5px 0;
+   }
+   
+
+/* Responsive design for tablets and phones */
+@media (max-width: 1023px) {
+
+       /* Navigation bar */
+       .navbar {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 12px 15px;
+           width: 100%;
+           box-sizing: border-box;
+       }
+   
+       /* Scream navigation logo */
+       .nav-logo {
+           font-size: 6vw;
+           letter-spacing: 1px;
+           white-space: nowrap;
+       }
+   
+       /* Navigation links */
+       .nav-links {
+           display: flex;
+           gap: 15px;
+       }
+   
+       .nav-links a {
+           font-size: 4vw;
+       }
+   
+       /* Poster container */
+       .poster {
+           position: relative;
+           width: 100%;
+           max-width: 1023px;
+           aspect-ratio: 1023 / 1495;
+           margin: 0 auto;
+           overflow: hidden;
+       }
+   
+       /* Poster background */
+       .poster-image {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+       }
+   
+       /* First tagline */
+       .tagline1 {
+           top: 3.2%;
+           left: 5%;
+           width: 90%;
+   
+           font-size: 3vw;
+           line-height: 1;
+           white-space: nowrap;
+           text-align: center;
+       }
+   
+       /* Second tagline */
+       .tagline2 {
+           top: 7%;
+           left: 5%;
+           width: 90%;
+   
+           font-size: 3vw;
+           line-height: 1;
+           white-space: nowrap;
+           text-align: center;
+       }
+   
+       /* Scream movie title */
+       .movie-title {
+           top: 76.5%;
+           left: 12%;
+           width: 76%;
+   
+           font-size: 7.5vw;
+           line-height: 1;
+       }
+   
+       /* Cast names */
+       .cast {
+           top: 82.5%;
+           left: 7%;
+           width: 86%;
+   
+           font-size: 1.85vw;
+           line-height: 0.95;
+       }
+   
+       .cast .and {
+           font-size: 1.35vw;
+       }
+   
+       /* Production credits */
+       .credits {
+           top: 85.5%;
+           left: 6%;
+           width: 88%;
+       }
+   
+       /* First two billing rows */
+       .credit-row {
+           gap: 0.2vw;
+           margin-bottom: 0.3vw;
+       }
+   
+       .credit-row p {
+           font-size: 0.9vw;
+           line-height: 1;
+           margin: 0;
+           white-space: nowrap;
+       }
+   
+       /* Smaller billing descriptions */
+       .credit-row span {
+           font-size: 0.55vw;
+       }
+   
+       /* Dimension Films */
+       .credits .billing1 {
+           font-size: 1.4vw;
+           gap: 0.2vw;
+       }
+   
+       .credits .billing1 .presents {
+           font-size: 0.65vw;
+       }
+   
+       /* Woods Entertainment */
+       .credits .billing2 {
+           font-size: 1.4vw;
+           gap: 0.2vw;
+       }
+   
+       .credits .billing2 .production-a {
+           font-size: 0.65vw;
+       }
+   
+       /* Third row with logos */
+       .logo-row {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           gap: 0.4vw;
+           margin-top: 0.7vw;
+       }
+   
+       .logo-row p {
+           font-size: 0.9vw;
+           white-space: nowrap;
+       }
+   
+       .logo-row span {
+           font-size: 0.55vw;
+       }
+   
+       /* Logos */
+       .logo-dolby {
+           position: static;
+           width: 7%;
+           height: auto;
+       }
+   
+       .logo-woods {
+           position: static;
+           width: 10%;
+           height: auto;
+       }
+   
+       .logo-dimension {
+           position: static;
+           width: 14%;
+           height: auto;
+       }
+   
+       /* Soundtrack row */
+       .soundtrack-row {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 1vw;
+           margin-top: 0.8vw;
+       }
+   
+       .soundtrack-row p {
+           font-size: 0.85vw;
+           white-space: nowrap;
+       }
+   
+       .soundtrack-row p:first-child {
+           font-size: 1.3vw;
+       }
+   
+       /* Soundtrack logo */
+       .logo-soundtrack {
+           position: static;
+           width: 8%;
+           height: auto;
+       }
+   
+       /* Bottom movie promotion */
+       .movie-promotion {
+           top: 94%;
+           left: 5%;
+           width: 90%;
+   
+           font-size: 1.4vw;
+           letter-spacing: 0.3vw;
+           text-align: center;
+           white-space: nowrap;
+       }
+   
+       /* Footer */
+       .site-footer {
+           width: 100%;
+           box-sizing: border-box;
+           padding: 15px 12px;
+           text-align: center;
+       }
+   
+       .site-footer p {
+           font-size: 13px;
+           line-height: 1.4;
+           margin: 6px 0;
+           overflow-wrap: anywhere;
+       }
+   }
+   
+   /*  Adjustments for smaller phones */
+   @media (max-width: 480px) {
+   
+       .navbar {
+           padding: 10px;
+       }
+   
+       .nav-logo {
+           font-size: 6vw;
+       }
+   
+       .nav-links {
+           gap: 12px;
+       }
+   
+       .nav-links a {
+           font-size: 4vw;
+       }
+   
+       .site-footer p {
+           font-size: 12px;
+       }
    }
    
