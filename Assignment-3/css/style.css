@@ -274,4 +274,66 @@ body {
    .movie-promotion p {
        margin: 0;
    }
+
+/* Navigation bar */
+header {
+       background-color: #0e0e0e;
+       border-bottom: 1px solid #444444;
+   }
+   
+   .navbar {
+       max-width: 1023px;
+       margin: 0 auto;
+       padding: 15px 25px;
+   
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   
+   /* Scream logo */
+   .nav-logo {
+       font-family: "Scream", sans-serif;
+       font-size: 32px;
+       font-weight: normal;
+       letter-spacing: 4px;
+       color: white;
+       text-decoration: none;
+   }
+   
+   /* Navigation links */
+   .nav-links {
+       display: flex;
+       gap: 30px;
+   }
+   
+   .nav-links a {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 20px;
+       color: white;
+       text-decoration: none;
+   }
+   
+   /* Navigation hover effect */
+   .nav-links a:hover {
+       color: #cc0000;
+   }
+   
+   
+
+/* Footer */
+.site-footer {
+       background-color: #0e0e0e;
+       color: #999999;
+       text-align: center;
+       padding: 20px;
+       border-top: 1px solid #444444;
+   }
+   
+   /* Footer text */
+   .site-footer p {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 14px;
+       margin: 5px 0;
+   }
    
