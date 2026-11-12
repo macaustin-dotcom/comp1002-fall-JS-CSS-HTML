@@ -730,3 +730,91 @@ header {
            line-height: 0.8;
        }
    }
+
+
+/* Production Designer Bruce Alan Miller */
+.credit-row .production-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Production Designer */
+   .credit-row .production-designer {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Bruce Alan Miller */
+   .credit-row .designer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+   
+   @media (max-width: 768px) {
+
+       .credit-row .production-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .production-designer {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Director of Photography Mark Irwin */
+.credit-row .photography-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Director of Photography */
+   .credit-row .director-photography {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Mark Irwin */
+   .credit-row .photographer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+   
+   /* A.S.C. C.S.C. */
+   .credit-row .photographer-credentials {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.55em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .credit-row .photography-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .director-photography {
+           line-height: 0.8;
+       }
+   
+       .credit-row .photographer-credentials {
+           font-size: 0.5em;
+       }
+   }
