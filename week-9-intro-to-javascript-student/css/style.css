@@ -1,0 +1,199 @@
+/* =============================================================
+   style.css - Introduction to JavaScript lesson page
+   This page is only a "stage" for our JavaScript, so the CSS
+   is kept simple and uses things we have already learned.
+   ============================================================= */
+
+/* ---------- 1. Reset and base styles ---------- */
+* {
+  box-sizing: border-box; /* padding stays INSIDE the width we set */
+}
+
+body {
+  margin: 0;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #1b1f27;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+/* Inline code, like <code>let</code> in a paragraph */
+code,
+kbd {
+  font-family: "Courier New", monospace;
+  background-color: #f1f3f6;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* ---------- 2. Header ---------- */
+.site-header {
+  background-color: #1b1f27;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+}
+
+.site-header p {
+  margin: 0.25rem 0 1.5rem;
+  color: #f7df1e;
+}
+
+/* ---------- 3. Navigation ----------
+   <menu> comes with a bullet list look, so we remove it
+   and use Flexbox to lay the links out in a row. */
+nav menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none; /* removes the bullets */
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #f7df1e;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #f7df1e;
+  color: #1b1f27;
+}
+
+/* ---------- 4. Main content ---------- */
+main {
+  max-width: 1000px;
+  margin: 0 auto; /* centers the content */
+  padding: 2rem 1.5rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- 5. Tip box (the <aside>) ---------- */
+.tip {
+  background-color: #1b1f27;
+  color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.tip h2 {
+  margin-top: 0;
+  color: #f7df1e;
+}
+
+.tip code,
+.tip kbd {
+  background-color: #2a2f3a;
+  color: #f7df1e;
+}
+
+/* ---------- 6. Lesson cards (each <article>) ----------
+   CSS Grid puts the cards in two columns. */
+#basics,
+#control-flow,
+#functions-arrays {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+/* The section title should span the full width */
+#basics > h2,
+#control-flow > h2,
+#functions-arrays > h2 {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+article {
+  background-color: #f1f3f6;
+  padding: 1.25rem;
+  border-radius: 10px;
+}
+
+article h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+article p {
+  margin-top: 0;
+  color: #4a5160;
+}
+
+/* ---------- 7. Output boxes ----------
+   Each <output> looks like a little console window. */
+output {
+  display: block;
+  min-height: 3.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #1b1f27;
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  white-space: pre-wrap; /* respects the line breaks we send */
+  border-radius: 8px;
+}
+
+/* :empty matches an output box with nothing in it yet */
+output:empty::before {
+  content: "(no output yet)";
+  color: #a3aab8;
+}
+
+/* ---------- 8. Lab section ---------- */
+#lab {
+  background-color: #f1f3f6;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+#lab > h2 {
+  margin-top: 0;
+}
+
+#lab li {
+  margin-bottom: 0.5rem;
+}
+
+#lab output {
+  margin-top: 1.5rem;
+}
+
+/* ---------- 9. Footer ---------- */
+.site-footer {
+  background-color: #1b1f27;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.site-footer p {
+  margin: 0;
+}

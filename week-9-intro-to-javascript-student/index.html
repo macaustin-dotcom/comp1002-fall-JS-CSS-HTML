@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is our first JS lesson">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Introduction to JavaScript | HTML, CSS, &amp; JS Fundamentals</title>
+
+    <!-- Our stylesheet lives in the css folder -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--
+      Our JavaScript lives in the js folder.
+      "defer" tells the browser: download the script now, but wait until the
+      whole page has loaded before running it. That way every <output> box
+      below already exists when our code tries to write into it.
+      Scripts with defer run in the order they are listed, so helpers.js
+      must come first (script.js and lab.js both use its show() function).
+    -->
+    <script src="js/helpers.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/lab.js" defer></script>
+  </head>
+
+  <body>
+    <!-- ========== Page header ========== -->
+    <header class="site-header">
+      <h1>Introduction to JavaScript</h1>
+      <p>HTML, CSS, &amp; JS Fundamentals</p>
+
+      <!-- Navigation: <menu> holds our list of jump links -->
+      <nav aria-label="Lesson sections">
+        <menu>
+          <li><a href="#basics">Language basics</a></li>
+          <li><a href="#control-flow">Control flow</a></li>
+          <li><a href="#functions-arrays">Functions and arrays</a></li>
+          <li><a href="#debugging">Debugging</a></li>
+          <li><a href="#lab">Lab</a></li>
+        </menu>
+      </nav>
+    </header>
+
+    <!-- ========== Main content ========== -->
+    <main>
+      <!-- <aside> is for side information that supports the main content -->
+      <aside class="tip">
+        <h2>How to use this page</h2>
+        <ol>
+          <li>Press <kbd>F12</kbd> and open the <strong>Console</strong> tab.</li>
+          <li>Open <code>js/script.js</code> in your editor.</li>
+          <li>Change the code, save, and refresh the page.</li>
+        </ol>
+        <p>Every result appears in the console <em>and</em> in the output boxes below.</p>
+      </aside>
+
+      <!-- ===== Section 1: Language basics ===== -->
+      <section id="basics">
+        <h2>Language basics</h2>
+
+        <article>
+          <h3>Your first program</h3>
+          <p>Printing a message and doing simple math.</p>
+          <output id="out-first"></output>
+        </article>
+
+        <article>
+          <h3>Variables</h3>
+          <p><code>let</code> can change. <code>const</code> cannot.</p>
+          <output id="out-variables"></output>
+        </article>
+
+        <article>
+          <h3>Data types</h3>
+          <p>Text (string), numbers, and true or false (boolean).</p>
+          <output id="out-types"></output>
+        </article>
+
+        <article>
+          <h3>Strings</h3>
+          <p>Joining text, template literals, and string tools.</p>
+          <output id="out-strings"></output>
+        </article>
+
+        <article>
+          <h3>Numbers and math</h3>
+          <p>Operators, the remainder, and shortcuts.</p>
+          <output id="out-numbers"></output>
+        </article>
+
+        <article>
+          <h3>Comparing values</h3>
+          <p>Questions with true or false answers.</p>
+          <output id="out-compare"></output>
+        </article>
+      </section>
+
+      <!-- ===== Section 2: Control flow ===== -->
+      <section id="control-flow">
+        <h2>Control flow</h2>
+
+        <article>
+          <h3>if / else</h3>
+          <p>Choosing which code runs.</p>
+          <output id="out-ifelse"></output>
+        </article>
+
+        <article>
+          <h3>Loops</h3>
+          <p>Repeating code with <code>for</code> and <code>while</code>.</p>
+          <output id="out-loops"></output>
+        </article>
+      </section>
+
+      <!-- ===== Section 3: Functions and arrays ===== -->
+      <section id="functions-arrays">
+        <h2>Functions and arrays</h2>
+
+        <article>
+          <h3>Functions</h3>
+          <p>Reusable code with parameters and return values.</p>
+          <output id="out-functions"></output>
+        </article>
+
+        <article>
+          <h3>Arrays</h3>
+          <p>An ordered list, and looping through it.</p>
+          <output id="out-arrays"></output>
+        </article>
+      </section>
+
+      <!-- ===== Section 4: Debugging ===== -->
+      <section id="debugging">
+        <h2>Debugging</h2>
+
+        <article>
+          <h3>Errors are clues</h3>
+          <p>When something breaks, follow these steps:</p>
+          <ol>
+            <li>Open the console with <kbd>F12</kbd>.</li>
+            <li>Read the red message: the kind of error, what went wrong, and the line number.</li>
+            <li>Fix that line, save, and refresh.</li>
+          </ol>
+          <p>Try the break-it experiments at the bottom of <code>js/script.js</code>.</p>
+          <output id="out-debug"></output>
+        </article>
+      </section>
+
+      <!-- ===== Lab ===== -->
+      <section id="lab">
+        <h2>Lab: practice exercises</h2>
+        <p>Write your answers in <code>js/lab.js</code>. Results show up below.</p>
+
+        <ol>
+          <li><strong>Greeting:</strong> store your name and age in variables, then print a sentence using a template literal.</li>
+          <li><strong>Counting:</strong> use a <code>for</code> loop to print 1 to 10, then a <code>while</code> loop to count down from 10 and print "Blast off!"</li>
+          <li><strong>Even or odd:</strong> write a function that takes a number and returns "even" or "odd".</li>
+        </ol>
+
+        <h3>Stretch goals</h3>
+        <ul>
+          <li>Make an array of 3 favourite foods, add a 4th, and loop through them.</li>
+          <li>Convert Celsius to Fahrenheit with a function.</li>
+          <li>FizzBuzz from 1 to 30.</li>
+        </ul>
+
+        <output id="out-lab"></output>
+      </section>
+    </main>
+
+    <!-- ========== Page footer ========== -->
+    <footer class="site-footer">
+      <p>HTML, CSS, &amp; JS Fundamentals &middot; Introduction to JavaScript</p>
+    </footer>
+  </body>
+</html>

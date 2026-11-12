@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
+          <meta name="robots" content="noindex" />
     <title>Scream Movie Poster</title>
     <link rel="stylesheet" href="../css/style.css">
 
@@ -36,6 +37,21 @@
     </nav>
 </header>
 
+<!-- Original Scream movie poster -->
+<section class="original-section">
+
+    <h2>Original Scream (1996) Movie Poster</h2>
+
+    <img
+        src="../images/screamposter-original.jpeg"
+        alt="Original Scream 1996 movie poster"
+        class="original-poster"
+    >
+
+</section>
+
+<!-- Recreated movie poster -->
+<h2 class="recreated-heading">Recreated Scream Movie Poster</h2>
 
     <main class="poster">
 
@@ -92,10 +108,16 @@
 
         <p>"SCREAM"</p>
 
-        <p><span>MUSIC BY</span> MARCO BELTRAMI</p>
+        <p class="music-credit">
+            <span class="music-by">MUSIC<br>BY</span>
+            <span class="composer-name">MARCO BELTRAMI</span>
+        </p>
 
-        <p><span>EDITED BY</span> PATRICK LUSSLER</p>
-
+        <p class="edited-credit">
+            <span class="edited-by">EDITED<br>BY</span>
+            <span class="editor-name">PATRICK LUSSLER</span>
+        </p>
+        
         <p><span>PRODUCTION DESIGNER</span> BRUCE ALAN MILLER</p>
     </div>
 
@@ -123,24 +145,18 @@
 
     <!-- Third row: Logos and production credits -->
     <div class="logo-row">
-
-        <img src="../images/dolby-logo.png"
-             class="logo-dolby" alt="Dolby">
-
-        <img src="../images/woods-entertainment-logo.png"
-             class="logo-woods" alt="Woods Entertainment">
-
-        <p><span>PRODUCED BY</span> CARY WOODS</p>
-
-        <p><span>AND</span> CATHY KONRAD</p>
-
-        <p><span>DIRECTED BY</span> WES CRAVEN</p>
-
-        <img src="../images/dimension-films-logo.png"
-             class="logo-dimension" alt="Dimension Films">
-
+        <img src="../images/dolby-logo.png" class="logo-dolby" alt="Dolby">
+    
+        <img src="../images/woods-entertainment-logo.png" class="logo-woods" alt="Woods Entertainment">
+    
+        <div class="middle-credits">
+            <p><span>PRODUCED BY</span> CARY WOODS</p>
+            <p><span>AND</span> CATHY KONRAD</p>
+            <p><span>DIRECTED BY</span> WES CRAVEN</p>
+        </div>
+    
+        <img src="../images/dimension-films-logo.png" class="logo-dimension" alt="Dimension Films">
     </div>
-
     <!-- Fourth row: Soundtrack and website -->
     <div class="soundtrack-row">
 

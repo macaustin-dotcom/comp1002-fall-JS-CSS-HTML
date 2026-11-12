@@ -187,24 +187,35 @@ body {
    }
    
    /* Third billing row with logos */
-   .logo-row {
+.logo-row {
        display: flex;
-       justify-content: space-between;
        align-items: center;
-       gap: 4px;
-       margin-top: 7px;
+       justify-content: space-between;
+       gap: 0.8vh;
+       margin-top: 0.7vh;
    }
    
-   /* Production names beside logos */
-   .logo-row p {
+   /* Middle text group */
+   .middle-credits {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 1.4vh;
+       flex: 1;
+   }
+   
+   /* Text inside middle group */
+   .middle-credits p {
        margin: 0;
        font-size: 0.8vh;
        line-height: 1;
        white-space: nowrap;
+       color: #999999;
+       font-family: "Barlow Condensed", sans-serif;
    }
    
-   /* Smaller producer descriptions */
-   .logo-row span {
+   /* Small words like PRODUCED BY / AND / DIRECTED BY */
+   .middle-credits span {
        font-size: 0.55vh;
    }
    
@@ -594,3 +605,128 @@ header {
        }
    }
    
+
+/* Original poster section */
+.original-section {
+       text-align: center;
+       padding: 30px 20px;
+   }
+   
+   /* Original poster heading */
+   .original-section h2 {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 30px;
+       font-weight: 500;
+       color: #0e0e0e;
+       margin: 0 0 20px 0;
+   }
+   
+   /* Original poster image */
+   .original-poster {
+       display: block;
+       width: min(100%, 67vh);
+       max-width: 1023px;
+       height: auto;
+       margin: 0 auto;
+   }
+   
+   /* Recreated poster heading */
+   .recreated-heading {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 30px;
+       font-weight: 500;
+       color: #0e0e0e;
+       text-align: center;
+       margin: 30px 0 20px 0;
+   }
+   
+   /* Mobile headings */
+   @media (max-width: 480px) {
+   
+       .original-section h2,
+       .recreated-heading {
+           font-size: 22px;
+       }
+   
+       .original-section {
+           padding: 20px 10px;
+       }
+   }
+
+
+
+/* Music by Marco Beltrami */
+.credit-row .music-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Music By text */
+   .credit-row .music-by {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Marco Beltrami */
+   .credit-row .composer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+   
+   
+   @media (max-width: 768px) {
+
+       .credit-row .music-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .music-by {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Edited by Patrick Lussler */
+.credit-row .edited-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Edited By text */
+   .credit-row .edited-by {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Patrick Lussler */
+   .credit-row .editor-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .credit-row .edited-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .edited-by {
+           line-height: 0.8;
+       }
+   }
