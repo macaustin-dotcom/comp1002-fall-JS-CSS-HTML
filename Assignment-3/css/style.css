@@ -818,3 +818,118 @@ header {
            font-size: 0.5em;
        }
    }
+
+
+/* Co-Producer Dixie J. Capp */
+.credit-row .coproducer-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Co-Producer text */
+   .credit-row .co-producer {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Dixie J. Capp */
+   .credit-row .coproducer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .credit-row .coproducer-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .co-producer {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Co-Executive Producer Stuart M. Besser */
+.credit-row .coexecutive-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Co-Executive Producer */
+   .credit-row .coexecutive-producer {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Stuart M. Besser */
+   .credit-row .coexecutive-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   
+   @media (max-width: 768px) {
+
+       .credit-row .coexecutive-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .coexecutive-producer {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Executive Producers */
+.credit-row .executive-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Executive Producers */
+   .credit-row .executive-producers {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Bob Weinstein Harvey Weinstein */
+   .credit-row .executive-names {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .credit-row .executive-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .executive-producers {
+           line-height: 0.8;
+       }
+   }
