@@ -1,0 +1,142 @@
+/* =====================================================
+   style.css
+   Basic styles for the Bright Bean Coffee site.
+   (No hover effects or transitions yet. Those come in Part 3.)
+   ===================================================== */
+
+/* ----- Reset and base ----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #2b2118;
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ----- Header (filled by createHeader) ----- */
+#site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #2b2118;
+}
+
+.logo {
+  color: #f4c430;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* <menu> comes with list bullets and padding, so we remove them */
+#site-header menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+#site-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* The link for the page we are on.
+   This matches the aria-current="page" our JavaScript added. */
+#site-header a[aria-current="page"] {
+  color: #f4c430;
+  font-weight: bold;
+}
+
+/* ----- Hero and page intro ----- */
+.hero {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+.page-intro {
+  padding: 60px 0 40px;
+}
+
+.page-intro h1 {
+  margin-bottom: 16px;
+}
+
+.page-intro p {
+  margin-bottom: 12px;
+  max-width: 640px;
+}
+
+/* ----- Cards (filled by createCard) ----- */
+.section-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 24px;
+  background-color: #f6f1ea;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+/* ----- Call to action (filled by createCallToAction) ----- */
+.cta {
+  margin: 60px 0;
+  padding: 48px 24px;
+  text-align: center;
+  background-color: #2b2118;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.cta h2 {
+  margin-bottom: 8px;
+}
+
+.cta p {
+  margin-bottom: 24px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #f4c430;
+  color: #2b2118;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* ----- Footer (filled by createFooter) ----- */
+#site-footer {
+  padding: 32px 20px;
+  text-align: center;
+  background-color: #f6f1ea;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- all the meta data will be called in with a template -->
+ <link rel="stylesheet" href="./css/style.css">
+ <!-- defer = wait until the whole page is rendered before running the script-->
+  <!-- Order Matters: the components must be called before the main.js -->
+<script src="./js/components.js" defer></script>
+<script src="./js/main.js" defer></script> 
+</head>
+
+<body data-page="about">
+
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-intro">
+      <h1>About us</h1>
+      <p>Bright Bean started as a single espresso cart. Today we roast our ownbeans, bake fresh every morning, and know most of our customers by name.</p>
+      <p>We believe a good coffee is simple: great beans, careful brewing, and a friendly hello.</p>
+    </section>
+
+    <section id="cta" class="cta"></section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+</body>
+</html>

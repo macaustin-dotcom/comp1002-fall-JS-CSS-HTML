@@ -226,11 +226,12 @@ body {
    }
    
    /* Woods Entertainment logo */
-   .logo-woods {
+.logo-woods {
+       position: relative;
+       left: 10%;
        width: 10%;
        height: auto;
    }
-   
    /* Dimension Films logo */
    .logo-dimension {
        width: 14%;
@@ -932,4 +933,138 @@ header {
        .credit-row .executive-producers {
            line-height: 0.8;
        }
+   }
+
+
+/* Written by Kevin Williamson */
+.credit-row .written-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Written By text */
+   .credit-row .written-by {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Kevin Williamson */
+   .credit-row .writer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .credit-row .written-credit {
+           gap: 1px;
+       }
+   
+       .credit-row .written-by {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Produced by Cary Woods */
+.middle-credits .produced-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Produced By text */
+   .middle-credits .produced-by {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Cary Woods */
+   .middle-credits .producer-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .middle-credits .produced-credit {
+           gap: 1px;
+       }
+   
+       .middle-credits .produced-by {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Directed by Wes Craven */
+.middle-credits .directed-credit {
+       display: inline-flex;
+       align-items: center;
+       gap: 3px;
+       white-space: nowrap;
+   }
+   
+   /* Stacked Directed By text */
+   .middle-credits .directed-by {
+       display: inline-block;
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 0.6em;
+       font-weight: 400;
+       line-height: 0.85;
+       text-align: right;
+   }
+   
+   /* Wes Craven */
+   .middle-credits .director-name {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 1.1em;
+       font-weight: 400;
+       line-height: 1;
+   }
+
+   @media (max-width: 768px) {
+
+       .middle-credits .directed-credit {
+           gap: 1px;
+       }
+   
+       .middle-credits .directed-by {
+           line-height: 0.8;
+       }
+   }
+
+
+/* Dimension Films website text */
+.soundtrack-row p:last-child {
+       font-family: "Barlow Condensed", sans-serif;
+       font-size: 14px;
+       font-weight: 400;
+       color: #999999;
+       line-height: 1;
+       white-space: nowrap;
+   }
+   
+
+   @media (max-width: 768px) {
+
+       .soundtrack-row p:last-child {
+           font-size: 1.7vw;
+       }
+   
    }
